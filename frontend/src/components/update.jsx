@@ -19,7 +19,6 @@ const Update = () => {
             .then(response => {
                 return response.json();
             }).then(result => {
-                console.log(result);
                 setState({
                     id: result.id,
                     title: result.title,
